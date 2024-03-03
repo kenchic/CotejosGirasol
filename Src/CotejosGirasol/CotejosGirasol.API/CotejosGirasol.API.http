@@ -1,0 +1,6 @@
+@CotejosGirasol.API_HostAddress = http://localhost:5204
+
+GET {{CotejosGirasol.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
