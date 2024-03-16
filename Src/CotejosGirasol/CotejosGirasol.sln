@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejosGirasol.Components", "CotejosGirasol.Components\CotejosGirasol.Components.csproj", "{028DF6A9-CFCB-4779-9EDB-229BF34FA53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotejosGirasol.Components", "CotejosGirasol.Components\CotejosGirasol.Components.csproj", "{028DF6A9-CFCB-4779-9EDB-229BF34FA53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejosGirasol.Web", "CotejosGirasol.Web\CotejosGirasol.Web.csproj", "{21F18EBA-5F1D-43E4-9A5B-88C1D7D62FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotejosGirasol.Web", "CotejosGirasol.Web\CotejosGirasol.Web.csproj", "{21F18EBA-5F1D-43E4-9A5B-88C1D7D62FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejosGirasol.Maui", "CotejosGirasol.Maui\CotejosGirasol.Maui.csproj", "{678C568E-8CFF-4DBA-8315-EFAC61722A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotejosGirasol.Maui", "CotejosGirasol.Maui\CotejosGirasol.Maui.csproj", "{678C568E-8CFF-4DBA-8315-EFAC61722A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejosGirasol.API", "CotejosGirasol.API\CotejosGirasol.API.csproj", "{B0C09B9B-27E0-490B-928B-A9ECE339BE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotejosGirasol.API", "CotejosGirasol.API\CotejosGirasol.API.csproj", "{B0C09B9B-27E0-490B-928B-A9ECE339BE8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejosGirasol.Client", "CotejosGirasol.Client\CotejosGirasol.Client.csproj", "{8C5723D9-E632-4E70-AFEB-D2F65A3094A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CotejosGirasol.Client", "CotejosGirasol.Client\CotejosGirasol.Client.csproj", "{8C5723D9-E632-4E70-AFEB-D2F65A3094A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejoGirsaol.Core", "CotejoGirsaol.Core\CotejoGirsaol.Core.csproj", "{3ABAB505-09DA-4059-8820-155111A2FF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotejosGirasol.Tools", "CotejosGirasol.Tools\CotejosGirasol.Tools.csproj", "{5D075548-8F4A-4244-BA4E-979D7EA9B79F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,14 @@ Global
 		{8C5723D9-E632-4E70-AFEB-D2F65A3094A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5723D9-E632-4E70-AFEB-D2F65A3094A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5723D9-E632-4E70-AFEB-D2F65A3094A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABAB505-09DA-4059-8820-155111A2FF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABAB505-09DA-4059-8820-155111A2FF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABAB505-09DA-4059-8820-155111A2FF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABAB505-09DA-4059-8820-155111A2FF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D075548-8F4A-4244-BA4E-979D7EA9B79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D075548-8F4A-4244-BA4E-979D7EA9B79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D075548-8F4A-4244-BA4E-979D7EA9B79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D075548-8F4A-4244-BA4E-979D7EA9B79F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
